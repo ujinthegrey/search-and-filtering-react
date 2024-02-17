@@ -1,0 +1,33 @@
+:root {
+    --semidark: #333;
+    --semilight: #ccb;
+    --light: #f7f6f6;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+    background-color: var(--semilight);
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--semidark);
+}
+
+li {
+    list-style: none;
+}
+
+.btn {
+    padding: .5rem 1.5rem;
+    margin-right: .5rem;
+    background: transparent;
+    border: 1px solid;
+    border-radius: .75rem;
+    color: var(--semidark);
+    cursor: pointer;
+}
