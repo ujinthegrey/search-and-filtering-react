@@ -1,7 +1,9 @@
 :root {
     --semidark: #333;
-    --semilight: #ccb;
+    --semilight: #ddd;
     --light: #f7f6f6;
+    --yellow: #d94;
+    --gray: #555;
 }
 
 * {
