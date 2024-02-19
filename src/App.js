@@ -8,8 +8,8 @@ function App() {
   return (
     <>
     <Navigation/>
-    <Products/>
     <Recommended/>
+    <Products/>
     </>
   )
 }

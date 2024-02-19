@@ -4,8 +4,7 @@ import { FaStar } from "react-icons/fa";
 import { FaBagShopping } from "react-icons/fa6";
 
 function Products() {
-  return (
-    <>
+  return <>
       <section className='card-container'>
         <article className='card'>
           <img 
@@ -36,7 +35,6 @@ function Products() {
         </article>
       </section>
     </>
-  )
 }
 
 export default Products
