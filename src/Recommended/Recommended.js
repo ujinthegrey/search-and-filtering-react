@@ -1,6 +1,6 @@
 import './Recommended.css'
 
-function Recommended() {
+function Recommended({}) {
   return <>
       <h2 className='recommended-title'>Recommended</h2>
       <div className='recommended-flex'>

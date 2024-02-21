@@ -12,8 +12,8 @@ function Category({handleChange}) {
         </label>
         <Input 
             handleChange={handleChange}
-            value="sneackers"
-            title="Sneackers"
+            value="sneakers"
+            title="Sneakers"
             name="test"
         />
         <Input 
