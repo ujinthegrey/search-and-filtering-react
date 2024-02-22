@@ -3,11 +3,17 @@ import { AiOutlineShoppingCart, AiOutlineUserAdd } from 'react-icons/ai'
 
 import './Navigation.css'
 
-function Navigation() {
+function Navigation({handleInputChange, query}) {
   return (
     <nav>
       <div className='nav-container'>
-        <input type='text' className='search-input' placeholder='Search shoes'/>
+        <input 
+          type='text' 
+          className='search-input' 
+          placeholder='Search shoes'
+          onChange={handleInputChange}
+          value={query}
+        />
       </div>
       <div className='profile-container'>
         <a href='#'>

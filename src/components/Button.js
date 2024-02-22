@@ -1,6 +1,12 @@
-function Button() {
+function Button({onClickHandler, value, title}) {
     return (
-      <button className="btn">Button</button>
+      <button 
+        onClick={onClickHandler}
+        value={value}
+        className="btn"
+      >
+        {title}
+      </button>
     )
   }
   

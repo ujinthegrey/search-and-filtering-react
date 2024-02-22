@@ -16,7 +16,7 @@ function App() {
   /* ---------------- Input Filter -----------------*/
   const [ query, setQuery ] = useState("")
 
-  const handlerInputChange = (e) => {
+  const handleInputChange = (e) => {
     setQuery(e.target.value)
   }
 
@@ -72,7 +72,7 @@ function App() {
   return (
     <>
       <Sidebar handleChange={handleChange}/>
-      <Navigation query={query} handlerInputChange={handlerInputChange} />
+      <Navigation query={query} handleInputChange={handleInputChange} />
       <Recommended handleClick={handleClick}/>
       <Products result={result} />
     </>
